@@ -40,8 +40,8 @@ public static class Program
 
     public static void Main()
     {
-        // Console.OutputEncoding = Encoding.Unicode;
-        // Console.InputEncoding = Encoding.Unicode;
+        Console.OutputEncoding = Encoding.Unicode;
+        Console.InputEncoding = Encoding.Unicode;
 
         int program = readNum("Введіть номер програми(згідно д/з):");
 
